@@ -13,7 +13,7 @@ uint32_t read_binfile_to_uint32_t(char *filename){
 
 	f=fopen(filename, "rb");
 	if (filename ==NULL){
-		fprintf(stderr, "error oepning file: %s", filename);
+		fprintf(stderr, "error opening file: %s", filename);
 		exit(EXIT_FAILURE);
 	}
 
